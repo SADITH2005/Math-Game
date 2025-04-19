@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Math Game - Fun Arithmetic Practice Game</title>
+    <meta name="description" content="Improve your math skills with Math Mania, a fun and challenging online arithmetic game. Practice addition, subtraction, multiplication, and division!">
+    <meta name="keywords" content="math game, online math practice, arithmetic game, math quiz, improve math skills, addition, subtraction, multiplication, division, fun math">
+    <meta name="author" content="Sadith Rashmika">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+    </head>
+
+<body>
+    <header>
+        <h1>Math Game!</h1>
+    </header>
+
+    <main class="game-container">
+        <div id="timer" class="game-info">Time Left: <span id="time">0</span>s</div>
+        <div id="q-counter" class="game-info">Question: <span id="q">0</span>/10</div>
+
+        <div class="main-section">
+            <div class="flex hidden" id="question-section">
+                <p id="question" class="math-question">Equation</p>
+                <input type="number" id="answer" placeholder="Your Answer" autocomplete="off"/>
+                <button id="submit-button" class="btn">Submit</button>
+            </div>
+            <button id="start" class="btn start-btn">Start Game</button>
+        </div>
+
+        <p id="score-section" class="game-info">Score: <span id="score">0</span>/10</p>
+    </main>
+
+    <section class="about-game">
+        <h2>About Math Game</h2>
+        <p>Welcome to Math Game, an exciting online arithmetic game designed to help you sharpen your math skills in a fun and engaging way! Whether you're a student looking to practice your fundamentals or just want to keep your brain sharp, Math Mania offers a quick and effective way to test your knowledge of addition, subtraction, multiplication, and division.</p>
+        <p>With a simple interface and a timed challenge, you'll feel the pressure (and the fun!) as you race against the clock to solve 10 random math problems. Track your score and see how quickly you can answer correctly. It's perfect for quick study sessions or just a few minutes of mental exercise.</p>
+        <p>Ready to become a math whiz? Click 'Start Game' and let the Math Game begin!</p>
+    </section>
+
+    <footer>
+        <p>Developed by Sadith Rashmika</p>
+    </footer>
+
+</body>
+
+</html>
